@@ -1,0 +1,117 @@
+html {
+	background: rgba(81,129,184,0.49);
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+h1 {
+	text-align: start;
+}
+img {
+	object-fit: contain;
+	height: 140px;
+}
+.row {
+	display: flex;
+	align-items: center;
+}
+.row p {
+	font-size: 28px;
+	
+}
+.title-chat {
+	font-size: 12px
+}
+.container {
+	
+	max-width: 900px;
+	margin: 0px auto;
+	background: white;
+}
+.area {
+    overflow: hidden;
+    min-height: 500px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: flex-end;
+    max-height: 500px;
+}
+.publish {
+    display: flex;
+    flex-direction: row;
+    background: #fafbfc;
+    padding: 20px;
+}
+#message {
+	flex: 1;
+	height: 21px;
+	padding: 10px;
+}
+#input {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  border: 0;
+  cursor: pointer;
+  transition: .6s;
+}
+
+#input:hover {
+	filter: brightness(0.9);
+}
+.message-seller {
+	margin: 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+}
+
+#field {
+	width: 100%;
+    overflow: auto;
+    max-height: inherit;
+}
+
+.name-field {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	height: 30px;
+	padding-left: 30px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+
+}
+.name-field span {
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.message-seller span{
+    padding: 6px 9px 8px 50px;
+    max-width: 300px;
+    border-radius: 7.5px;
+    background: rgb(254, 222, 43, 0.7);
+}
+
+.message-client {
+	margin: 5px 0;
+	font-size: 14px;
+	display: flex;
+    justify-content: flex-end;
+}
+
+.message-client span {
+	background: #dcf8c6;
+    padding: 6px 50px 8px 9px;
+    max-width: 300px;
+    border-radius: 7.5px;
+}
